@@ -30,6 +30,24 @@ We are going to learn funcionalities such as:
 npm i
 ```
 
+https://cloud.mongodb.com/
+0.0.0.0/0
+
+gitHub -> Settings -> Developer setting -> OAuth Apps
+airbnb
+http://localhost:3000/
+
+google developer console
+https://console.cloud.google.com/
+NEW PROJECT
+SELECT PROJECT
+search Apis
+Enabled APIs & services -> OAuth consent screen -> External -> CREATE
+Credentials -> CREATE CREDENTIALS -> Create OAuth client ID
+Web application
+Authorized redirect URLs
+http://localhost:3000/api/auth/callback/google
+
 ### Setup .env file
 
 ```js
@@ -37,6 +55,8 @@ DATABASE_URL=
 NEXTAUTH_JWT_SECRET=
 NEXTAUTH_SECRET=
 ```
+
+npx prisma db push
 
 ### Start the app
 
