@@ -58,6 +58,8 @@ NEXTAUTH_SECRET=
 
 npx prisma db push
 
+npx prisma generate
+
 ### Start the app
 
 ```shell
